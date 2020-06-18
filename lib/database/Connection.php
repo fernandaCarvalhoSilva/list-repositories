@@ -8,7 +8,7 @@ abstract class Connection {
 
     public static function getConn() {
 
-        $url = parse_url(getenv("CLEARDB_GOLD_URL"));
+        $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
         $server = $url["host"];
         $username = $url["user"];
