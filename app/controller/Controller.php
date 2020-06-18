@@ -3,7 +3,7 @@
 abstract class Controller {
 
     public function view($name) {
-        include(__DIR__ . '/../view/enquete/' .$name.'.php');
+        include(__DIR__ . '/../view/repository/' .$name.'.php');
     }
 
 }

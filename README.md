@@ -1,10 +1,10 @@
 # GitHub
-This project use the GitHub api to list the most popular repositories with the languages: Golang, PHP, C, Python and Java.
+This project use the GitHub api to list the most popular repositories on GitHub by the following programming languages: Golang, PHP, C, Python and Java.
 
-This Project was developed with PHP and have automated tests that use the framework Cypress.
+This Project was developed in [PHP](https://www.php.net/).
 
-## Database
-The sql script is found in the dir /database. You need it to run this project.
+## Tests
+[Cypress](https://www.cypress.io/) framework was used to perform the automated tests 
 
 ## Install
 To install cypress you just need to run the command in your terminal:
@@ -18,3 +18,6 @@ To run the automated tests, you have to type this command in your terminal:
 ./node_modules/.bin/cypress open
 ```
 The cypress interface opens and you can choose the test that you want to run. In that case, you will find only one test case.
+
+## Heroku
+See this application [here](https://list-repos.herokuapp.com/)

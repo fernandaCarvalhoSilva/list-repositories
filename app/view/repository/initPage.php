@@ -24,9 +24,9 @@
     <div id="content-wrapper" class="d-flex flex-column">
         <h2>List of Repositories</h2>
         <div class="init">
-            <p>Please, press the button to List the most popular repositories on GitHub with the programing Languages:<br></p>
+            <p>Please, press the button to List the most popular repositories on GitHub by the following programming languages:<br></p>
             <p>Golang, PHP, C, Python, Java</p>
-            <a data-cy="listButton" href="repository/create" class="btn btn-simple">Listar</a>
+            <a data-cy="listButton" href="repository/create" class="btn btn-simple">List</a>
         </div>
     </div>
 </div>
